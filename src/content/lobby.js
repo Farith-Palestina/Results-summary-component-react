@@ -42,6 +42,9 @@ function Lobby(){
                             <p className='summary-reaction-text'>
                                 Reaction
                             </p>
+                            <div className='summary-memory-real-percentaje-container'>
+                                <p className='summary-memory-real-percentaje'>80 <span>/ 100</span></p>
+                            </div>
                         </div>
                     </div>
                     <div className='summary-all-containers'>
@@ -50,14 +53,20 @@ function Lobby(){
                             <p className='summary-memory-text'>
                                 Memory
                             </p>
+                            <div className='summary-memory-real-percentaje-container'>
+                                <p className='summary-memory-real-percentaje'>92 <span>/ 100</span></p>
+                            </div>
                         </div>
                     </div>
                     <div className='summary-all-containers'>
                         <div className='summary-verbal'>
                             <img alt='VerbalImage' src={VerbalImage}/>
                             <p className='summary-verbal-text'>
-                                Verbal
+                                Verbal   
                             </p>
+                            <div className='summary-memory-real-percentaje-container'>
+                                <p className='summary-memory-real-percentaje'>61 <span>/ 100</span></p>
+                            </div>
                         </div>
                     </div>
                     <div className='summary-all-containers'>
@@ -66,6 +75,9 @@ function Lobby(){
                             <p className='summary-visual-text'>
                                 Visual
                             </p>
+                            <div className='summary-memory-real-percentaje-container'>
+                                <p className='summary-memory-real-percentaje'>72 <span>/ 100</span></p>
+                            </div>
                         </div>
                     </div>
                     <div className='button-container'>

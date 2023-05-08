@@ -140,6 +140,7 @@ body{
 
 .summary-reaction-text{
     color: hsl(0, 100%, 67%);
+    font-family: 'HankenGrotesk-Variable';
 }
 
 .summary-memory{
@@ -158,6 +159,7 @@ body{
 
 .summary-memory-text{
     color: hsl(39, 100%, 56%);
+    font-family: 'HankenGrotesk-Variable';
 }
 
 .summary-verbal{
@@ -176,6 +178,7 @@ body{
 
 .summary-verbal-text{
     color: hsl(166, 100%, 37%);
+    font-family: 'HankenGrotesk-Variable';
 }
 
 .summary-visual{
@@ -194,6 +197,22 @@ body{
 
 .summary-visual-text{
     color: hsl(234, 85%, 45%);
+    font-family: 'HankenGrotesk-Variable';
+}
+
+.summary-memory-real-percentaje-container{
+    width: 100%;
+}
+
+.summary-memory-real-percentaje{
+    font-family: 'HankenGrotesk-Medium';
+    color: hsl(224, 30%, 27%);
+    text-align: right;
+    padding-right: 15px;
+}
+
+.summary-memory-real-percentaje span{
+    color: hsl(224, 30%, 80%);
 }
 
 .button-container{
